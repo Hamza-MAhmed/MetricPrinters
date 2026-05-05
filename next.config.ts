@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
 // const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  basePath: '/MetricPrinters', // Replace with your exact GitHub repo name
   images: {
     unoptimized: true,
     remotePatterns: [

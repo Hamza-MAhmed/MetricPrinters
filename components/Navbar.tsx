@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react'
 import Link from 'next/link' 
 import Image from 'next/image'  
+import logoImg from '../public/1stLogo.png'
 
 export default function Navbar() {
   const inputRef = useRef<HTMLInputElement>(null)
@@ -27,7 +28,7 @@ export default function Navbar() {
       <div className="nav-inner">
       <Link href="/" className="logo" aria-label="Metric Printers Home">
           <Image
-            src="/1stLogo.png"
+            src={logoImg}
             alt="Metric Printers Logo"
             width={140}
             height={44}
@@ -66,10 +67,12 @@ export default function Navbar() {
               Industries
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#faq" onClick={closeMenu}>
               FAQ
             </a>
+          </li> */}
+          <li><a href="/blog" onClick={() => setOpen(false)}>Blog</a>
           </li>
           <li>
             <a

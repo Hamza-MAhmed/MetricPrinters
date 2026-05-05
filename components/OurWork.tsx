@@ -1,18 +1,31 @@
 import Image from 'next/image'
+import card from '../public/visiting_card.jpg'
+import book from '../public/book.jpg'
+import book2 from '../public/book2.jpg'
+import box1 from '../public/box1.jpg'
+import box2 from '../public/box2.jpg'
+import envelope from '../public/envelope.jpg'
+import fabric_sample from '../public/fabric_samplebook.jpg'
+import ideal_bill from '../public/ideal_billbook.jpg'
+import letterhead from '../public/letter_head.jpg'
+import nankhatai from '../public/Untitled design (1).png'
+import sticker from '../public/sticker.jpg'
+import sticker2 from '../public/sticker2.jpg'
+
 
 const work = [
-  { src: '/visiting_card.jpg',     alt: 'Custom printed visiting card',    label: 'Visiting Card',       w: 80, h: 40 },
-  { src: '/book.jpg',              alt: 'Printed book',                    label: 'Book',                w: 60, h: 20 },
-  { src: '/book2.jpg',             alt: 'Printed book',                    label: 'Book',                w: 40, h: 20 },
-  { src: '/box1.jpg',              alt: 'Custom packaging box',            label: 'Packaging Box',       w: 70, h: 80 },
-  { src: '/box2.jpg',              alt: 'Custom packaging box',            label: 'Packaging Box',       w: 60, h: 80 },
-  { src: '/envelope.jpg',          alt: 'Printed envelope',                label: 'Envelope',            w: 50, h: 20 },
-  { src: '/fabric_samplebook.jpg', alt: 'Fabric sample book',             label: 'Fabric Sample Book',  w: 60, h: 30 },
-  { src: '/ideal_billbook.jpg',    alt: 'Printed bill book',               label: 'Bill Book',           w: 90, h: 30 },
-  { src: '/letter_head.jpg',       alt: 'Custom printed letterhead',       label: 'Letter Head',         w: 60, h: 30 },
-  { src: '/Untitled design (1).png',   alt: 'Nan khata paper printing',    label: 'Nan Khata Paper',  w: 80, h: 50 },
-  { src: '/sticker.jpg',           alt: 'Custom printed sticker',          label: 'Sticker',             w: 60, h: 20 },
-  { src: '/sticker2.jpg',          alt: 'Custom printed sticker',          label: 'Sticker',             w: 20, h: 20 },
+  { src: card,     alt: 'Custom printed visiting card',    label: 'Visiting Card',       w: 80, h: 40 },
+  { src: book,              alt: 'Printed book',                    label: 'Book',                w: 60, h: 20 },
+  { src: book2,             alt: 'Printed book',                    label: 'Book',                w: 40, h: 20 },
+  { src: box1,              alt: 'Custom packaging box',            label: 'Packaging Box',       w: 70, h: 80 },
+  { src: box2,              alt: 'Custom packaging box',            label: 'Packaging Box',       w: 60, h: 80 },
+  { src: envelope,          alt: 'Printed envelope',                label: 'Envelope',            w: 50, h: 20 },
+  { src: fabric_sample, alt: 'Fabric sample book',             label: 'Fabric Sample Book',  w: 60, h: 30 },
+  { src: ideal_bill,    alt: 'Printed bill book',               label: 'Bill Book',           w: 90, h: 30 },
+  { src: letterhead,       alt: 'Custom printed letterhead',       label: 'Letter Head',         w: 60, h: 30 },
+  { src: nankhatai,   alt: 'Nan khata paper printing',    label: 'Nan Khata Paper',  w: 80, h: 50 },
+  { src: sticker,           alt: 'Custom printed sticker',          label: 'Sticker',             w: 60, h: 20 },
+  { src: sticker2,          alt: 'Custom printed sticker',          label: 'Sticker',             w: 20, h: 20 },
 ]
 
 export default function OurWork() {
@@ -29,7 +42,7 @@ export default function OurWork() {
             </p>
           </div>
           <a
-            href="https://wa.me/923000000000?text=Hi!%20I%20want%20to%20see%20more%20of%20your%20work."
+            href="https://wa.me/923363683562?text=Hi!%20I%20want%20to%20see%20more%20of%20your%20work."
             className="btn-primary"
             target="_blank"
             rel="noopener noreferrer"

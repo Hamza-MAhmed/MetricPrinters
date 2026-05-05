@@ -63,9 +63,9 @@ export default function Hero() {
             <div className="hero-card-stack">
               <div className="print-card pc-1">
                 <div className="pc-1-inner">
-                  <div className="name">Ahmed Raza</div>
+                  <div className="name">Muhammad Ahmed</div>
                   <div className="title">Chief Executive Officer</div>
-                  <div className="contact">+92 300 0000000 · ahmed@company.pk</div>
+                  <div className="contact">+92 3363683562 · metricsprinters@company.pk</div>
                 </div>
               </div>
               <div className="print-card pc-2">

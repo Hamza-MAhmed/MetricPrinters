@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import Link from 'next/link'    
 import Image from 'next/image'  
+import logoImg from '../public/1stLogo.png'
+
 
 const industries = [
   { icon: '🛍️', label: 'Retail Shops' },
@@ -173,7 +175,7 @@ export function Footer() {
           <div className="footer-brand">
           <Link href="/" aria-label="Metric Printers Home">
               <Image
-                src="/logo2.png"
+                src={logoImg}
                 alt="Metric Printers Logo"
                 width={160}
                 height={52}
