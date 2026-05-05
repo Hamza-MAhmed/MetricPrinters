@@ -72,7 +72,7 @@ export default function Navbar() {
               FAQ
             </a>
           </li> */}
-          <li><a href="/blog" onClick={() => setOpen(false)}>Blog</a>
+          <li><a href="/blog" onClick={closeMenu}>Blog</a>
           </li>
           <li>
             <a
