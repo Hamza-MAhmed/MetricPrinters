@@ -165,7 +165,7 @@ export default function BlogPage() {
                             Metric Printers handles everything — from visiting cards to packaging boxes. One message and your order is in motion.
                         </p>
 
-                        <a href="https://wa.me/923000000000?text=Hi!%20I%20read%20your%20blog%20and%20need%20a%20quote."
+                        <a href="https://wa.me/923363683562?text=Hi!%20I%20read%20your%20blog%20and%20need%20a%20quote."
                             className="btn-wa"
                             target="_blank"
                             rel="noopener noreferrer"
