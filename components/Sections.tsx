@@ -189,7 +189,7 @@ export function Footer() {
           <div className="footer-col">
             <h5>Services</h5>
             <ul>
-              {['Visiting Cards', 'Panaflex Banners', 'Sign Boards', 'Packaging Boxes', 'Stickers & Labels', 'Screen Printing'].map((s) => (
+              {['Visiting Cards', 'Panaflex Banners', 'Sign Boards', 'Packaging Boxes'].map((s) => (
                 <li key={s}>
                   <a href="#services">{s}</a>
                 </li>
@@ -199,7 +199,7 @@ export function Footer() {
           <div className="footer-col">
             <h5>More Services</h5>
             <ul>
-              {['T-Shirts & Caps', 'Keychains & Pens', 'Bill Books', 'Books & Catalogues', 'Tags & Labels', 'Files & Folders'].map((s) => (
+              {['T-Shirts & Caps', 'Bill Books', 'Books & Catalogues', 'Tags & Labels', 'Files & Folders'].map((s) => (
                 <li key={s}>
                   <a href="#services">{s}</a>
                 </li>
@@ -210,7 +210,7 @@ export function Footer() {
             <h5>Contact</h5>
             <ul>
               <li>
-                <a href="tel:+923363683562">📞 +92 300 000 0000</a>
+                <a href="tel:+923363683562">📞 +92 336 368 3562</a>
               </li>
               <li>
                 <a href="https://wa.me/923363683562" target="_blank" rel="noopener noreferrer">
