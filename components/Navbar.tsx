@@ -32,7 +32,7 @@ export default function Navbar() {
             alt="Metric Printers Logo"
             width={140}
             height={44}
-            style={{ objectFit: 'contain', height: '90px', width: 'auto' }}
+            style={{ objectFit: 'contain', height: '65px', width: 'auto' }}
             priority
           />
         </Link>
@@ -72,7 +72,7 @@ export default function Navbar() {
               FAQ
             </a>
           </li> */}
-          <li><a href="/blog" onClick={closeMenu}>Blog</a>
+          <li><Link href="/blog" onClick={closeMenu}>Blog</Link>
           </li>
           <li>
             <a

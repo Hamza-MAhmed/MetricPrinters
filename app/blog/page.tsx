@@ -6,12 +6,12 @@ export const metadata: Metadata = {
     description:
         'Everything Karachi businesses need to know about printing — visiting cards, banners, packaging, stickers and more. Tips, pricing, and how to choose the right printing partner.',
     alternates: {
-        canonical: 'https://www.metricprinters.com/blog',
+        canonical: 'http://hamza-mahmed.github.io/MetricPrinters/blog',
     },
     openGraph: {
         title: 'Complete Guide to Business Printing in Karachi',
         description: 'Tips, pricing, and advice for every type of business printing in Karachi.',
-        url: 'https://www.metricprinters.com/blog',
+        url: 'http://hamza-mahmed.github.io/MetricPrinters/blog',
     },
 }
 

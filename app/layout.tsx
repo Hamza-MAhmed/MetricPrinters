@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.metricprinters.com'),
+  metadataBase: new URL('http://hamza-mahmed.github.io/MetricPrinters'),
   title: {
     default: 'Metric Printers | All-in-One Printing Solutions for Your Business',
     template: '%s | Metric Printers',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_PK',
-    url: 'https://www.metricprinters.com',
+    url: 'http://hamza-mahmed.github.io/MetricPrinters',
     siteName: 'Metric Printers',
     title: 'Metric Printers | All-in-One Printing Solutions',
     description:
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description: 'Your one-stop printing partner in Karachi. Fast, reliable, professional.',
   },
   alternates: {
-    canonical: 'https://www.metricprinters.com',
+    canonical: 'http://hamza-mahmed.github.io/MetricPrinters',
   },
 }
 
@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               name: 'Metric Printers',
               description:
                 'All-in-one printing solutions for businesses in Karachi. Visiting cards, banners, signboards, packaging, promotional merchandise and more.',
-              url: 'https://www.metricprinters.com',
+              url: 'http://hamza-mahmed.github.io/MetricPrinters',
               telephone: '+92-300-0000000',
               address: {
                 '@type': 'PostalAddress',
